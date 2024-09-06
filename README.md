@@ -71,3 +71,16 @@ To compile the project, use the following command in the terminal:
 
 ```bash
 g++ -o shell main.cpp lock.cpp test.cpp utility.cpp -lreadline -pthread
+```
+
+## Execution
+
+After compiling, you can run the shell by executing:
+
+```bash
+./shell
+```
+
+The shell will display a prompt, and you can start typing commands. To exit, type `exit`.
+
+---
